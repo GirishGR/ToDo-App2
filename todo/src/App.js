@@ -1,15 +1,18 @@
 
 import './App.css';
-import Todo2 from './Component/Todo2';
-// import Todo from './ToDo/Todo';
+import Todo2 from './ToDo/Todo2';
+
 
 
 function App() {
   return (
     <div className="Container">
-      {/* <Todo/> */}
 
+      <div className="row">
+        <div className="col">
       <Todo2/>
+      </div>
+      </div>
          
     </div>
   );
